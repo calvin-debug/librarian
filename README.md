@@ -3,9 +3,7 @@
 ## Block 1 - Serializers
 
 ### Files to work on
-- `library/models.py`
 - `library/serializers.py`
-- `library/views.py`
 
 ### Tasks
 1. Implement missing serializers for `BookDetailSerializer` and `AuthorSerializer`. 
