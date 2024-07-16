@@ -68,10 +68,10 @@
 
 ### Files to work on
 - `library/views.py`
-- `library/filters.py`
+- `library/pagination.py`
 
 ### Tasks
-1. Implement pagination for the `BookViewSet`. The pagination should be done using the `PageNumberPagination` class and should include 10 books per page. If stuck, see documentation here: [DRF custom pagination](https://www.django-rest-framework.org/api-guide/pagination/)
+1. Implement pagination for the `BookViewSet`. The pagination should be done using the `PageNumberPagination` class and should include 10 books per page. The pagination backend has been initialized, but not set up correctly in the `library/pagination.py` file. If stuck, see documentation here: [DRF custom pagination](https://www.django-rest-framework.org/api-guide/pagination/)
 
 ### Running tests
 - Run the tests using the command `python manage.py test library.tests.test_block_5`.
