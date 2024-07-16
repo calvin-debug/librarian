@@ -7,9 +7,9 @@
 
 ### Tasks
 1. Implement missing serializers for `BookDetailSerializer` and `AuthorSerializer`. 
-   1. The `BookDetailSerializer` should include the page count author details and also all the fields from the `BookListSerializer`.
-   2. `AuthorSerializer` should include all fields from the `Author` model.
-   3. The `AuthorSerializer` should include a custom field for `book_count` that represents the number of books written by that author.
+   1. `AuthorSerializer` should include all fields from the `Author` model.
+   2. The `AuthorSerializer` should include a custom field for `book_count` that represents the number of books written by that author.
+   3. The `BookDetailSerializer` should include the page count author details and also all the fields from the `BookListSerializer`.
 
 ### Running tests
 - Run the tests using the command `python manage.py test library.tests.test_block_1`.
@@ -46,6 +46,9 @@
    2. `country` - a CharField with a maximum length of 100 characters.
 3. Create a connection between the `Book` and `Publisher` models. A book could have one publisher, but a publisher can have multiple books. A book can be without a publisher.
 4. Create and run the migrations to reflect the new database schema.
+
+### Running tests
+- Run the tests using the command `python manage.py test library.tests.test_block_3`.
 
 
 ## Block 4 -- Filtering
