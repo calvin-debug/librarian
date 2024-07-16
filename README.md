@@ -1,4 +1,21 @@
+# Librarian | Django REST Framework mock project
 
+## Setup guide
+- Clone the repository
+- Create a virtual environment using `python -m venv venv` (or `python3 -m venv venv` on Linux-based systems)
+- Activate the virtual environment using `source venv/bin/activate` on Linux-based systems or `venv\Scripts\activate` on Windows
+- Install the dependencies using `pip install -r requirements.txt`
+- Run the migrations using `python manage.py migrate`
+- Start solving the tasks
+
+## Goals
+- The goal of each block is to implement the missing functionality in the Django REST Framework project.
+- Each block has a set of tasks that need to be completed and a set of tests that need to be passed.
+- Once you have completed the tasks, run the tests to verify that the implementation is correct.
+- Feel free to run any individual test file or test case to verify the implementation.
+
+
+# Tasks
 
 ## Block 1 - Serializers
 
