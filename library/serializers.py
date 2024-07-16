@@ -2,6 +2,12 @@ from rest_framework import serializers
 from .models import Book, Author
 
 
+class AuthorSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Author
+        fields = ()
+
+
 class BookListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
@@ -11,10 +17,5 @@ class BookListSerializer(serializers.ModelSerializer):
 class BookDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
-        fields = ()
-
-
-class AuthorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Author
-        fields = ()
+        fields = (
+        )
